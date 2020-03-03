@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b76793-3eca-43df-beca-28d65a0e25a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/litespring/test/v1/BeanFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resource/petstore-v1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/support/DefaultBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/service/v1/PetStoreService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/litespring/test/v1/BeanFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/litespring/test/v1/BeanFactoryTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
       <list>
         <option value="JavaFXApplication" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,6 +36,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/litespring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../litespring" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,6 +52,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.litespring.beans" />
+      <recent name="org.litespring.beans.factory.support" />
+      <recent name="org.litespring.beans.factory" />
+      <recent name="org.litespring.service.v1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Data for study\编程\码农翻身第三季\sauvage_litespring\src\test\resource" />
     </key>
@@ -64,6 +74,28 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="BeanFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sauvage_litespring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.litespring.test.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.litespring.test.v1" />
+      <option name="MAIN_CLASS_NAME" value="org.litespring.test.v1.BeanFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BeanFactoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -78,8 +110,16 @@
       <workItem from="1583160710457" duration="24000" />
       <workItem from="1583160762858" duration="85000" />
       <workItem from="1583160873892" duration="2083000" />
-      <workItem from="1583162987303" duration="2235000" />
+      <workItem from="1583162987303" duration="5200000" />
     </task>
+    <task id="LOCAL-00001" summary="2020年3月3日00:07:11">
+      <created>1583165242769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583165242770</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020年3月3日00:07:11" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年3月3日00:07:11" />
   </component>
 </project>

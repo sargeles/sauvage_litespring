@@ -17,12 +17,13 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+        <!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>3.2.8.RELEASE</version>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
         </dependency>
+
 
     </dependencies>
 
