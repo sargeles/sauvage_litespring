@@ -2,13 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b76793-3eca-43df-beca-28d65a0e25a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/support/DefaultBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/service/v1/PetStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/BeansException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/BeanCreationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/BeanDefinitionStoreException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/config/ConfigurableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/support/GenericBeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/support/SingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/context/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/context/support/AbstractApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/context/support/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/context/support/FileSystemXmlApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/core/io/ClassPathResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/core/io/FileSystemResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/core/io/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/core/io/ResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/core/io/support/AbstractResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/util/Assert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/litespring/util/ClassUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/litespring/test/v1/ApplicationContextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/litespring/test/v1/ResourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/litespring/test/v1/V1AllTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/litespring/beans/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/BeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/support/DefaultBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/litespring/beans/factory/support/DefaultBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/litespring/service/v1/PetStoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/litespring/service/v1/PetStoreService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/litespring/test/v1/BeanFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/litespring/test/v1/BeanFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resource/petstore-v1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resource/petstore-v1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/litespring/beans/BeanDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/litespring/beans/BeanDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/litespring/beans/factory/BeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/litespring/beans/factory/BeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/litespring/beans/factory/support/DefaultBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/litespring/beans/factory/support/DefaultBeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/litespring/service/v1/PetStoreService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/litespring/service/v1/PetStoreService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/petstore-v1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/petstore-v1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/litespring/test/v1/BeanFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/litespring/test/v1/BeanFactoryTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +52,7 @@
       <list>
         <option value="JavaFXApplication" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,7 +69,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/litespring" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../litespring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,10 +85,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.litespring.core.io" />
+      <recent name="org.litespring.context.support" />
+      <recent name="org.litespring.beans.context" />
+      <recent name="org.litespring.beans.factory.xml" />
       <recent name="org.litespring.beans" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.litespring.context.support" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.litespring.util" />
       <recent name="org.litespring.beans.factory.support" />
-      <recent name="org.litespring.beans.factory" />
-      <recent name="org.litespring.service.v1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Data for study\编程\码农翻身第三季\sauvage_litespring\src\test\resource" />
@@ -74,7 +114,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BeanFactoryTest.testGetBean">
+    <configuration name="ApplicationContextTest.testGetBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sauvage_litespring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.litespring.test.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.litespring.test.v1" />
+      <option name="MAIN_CLASS_NAME" value="org.litespring.test.v1.ApplicationContextTest" />
+      <option name="METHOD_NAME" value="testGetBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BeanFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sauvage_litespring" />
       <extension name="coverage">
@@ -90,9 +146,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BeanFactoryTest.testGetBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sauvage_litespring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.litespring.test.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.litespring.test.v1" />
+      <option name="MAIN_CLASS_NAME" value="org.litespring.test.v1.BeanFactoryTest" />
+      <option name="METHOD_NAME" value="testGetBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanFactoryTest.testInvalidXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sauvage_litespring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.litespring.test.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.litespring.test.v1" />
+      <option name="MAIN_CLASS_NAME" value="org.litespring.test.v1.BeanFactoryTest" />
+      <option name="METHOD_NAME" value="testInvalidXML" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="V1AllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sauvage_litespring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.litespring.test.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.litespring.test.v1" />
+      <option name="MAIN_CLASS_NAME" value="org.litespring.test.v1.V1AllTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanFactoryTest.testGetBean" />
+        <item itemvalue="JUnit.V1AllTest" />
+        <item itemvalue="JUnit.ApplicationContextTest.testGetBean" />
         <item itemvalue="JUnit.BeanFactoryTest" />
+        <item itemvalue="JUnit.BeanFactoryTest.testInvalidXML" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +217,14 @@
       <workItem from="1583160710457" duration="24000" />
       <workItem from="1583160762858" duration="85000" />
       <workItem from="1583160873892" duration="2083000" />
-      <workItem from="1583162987303" duration="5200000" />
+      <workItem from="1583162987303" duration="5873000" />
+      <workItem from="1584587196597" duration="64000" />
+      <workItem from="1595387611850" duration="2386000" />
+      <workItem from="1595466718526" duration="7641000" />
+      <workItem from="1595663603054" duration="8190000" />
+      <workItem from="1595860321292" duration="2103000" />
+      <workItem from="1595898847477" duration="18997000" />
+      <workItem from="1595939751063" duration="2834000" />
     </task>
     <task id="LOCAL-00001" summary="2020年3月3日00:07:11">
       <created>1583165242769</created>
@@ -119,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583165242770</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2020年3月3日23:50:15">
+      <created>1583250624917</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583250624917</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +261,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020年3月3日00:07:11" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年3月3日00:07:11" />
+    <MESSAGE value="2020年3月3日23:50:15" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年3月3日23:50:15" />
   </component>
 </project>
